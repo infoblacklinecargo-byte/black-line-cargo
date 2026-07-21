@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Line Cargo</title>
+    <style>
+body {
+  background-image: url('1784639036038.png'); /* "png:" vorne entfernen! */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+               header {
+            color: blue;
+            padding: 15px;
+            text-align: center;
+        }
+           header {
+  display: flex;
+  justify-content: space-between; /* Titel links, Menü rechts */
+  align-items: center;            /* Vertikal auf gleicher Höhe */
+}
+
+nav a {
+  margin-left: 15px;              /* Abstand zwischen den Links */
+  text-decoration: none;
+}
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: blue;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #0284c7;
+            border-radius: 5px;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+margin-top: 550px;
+text-algin: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 100px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+color: white;
+        }
+        .card {
+            background: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+      <div>
+        <h1>Black Line Cargo</h1>
+        <p>Gemeinsam sind wir eine starke Truppe</p>
+      </div>
+
+     <nav>
+        <a href="webseite.html">Home</a>
+        <a href="uber-uns.html">Über uns</a>
+        <a href="fuhrpark.html">Fuhrpark</a>
+        <a href="bewerben.html">Bewerben</a>
+     </nav>
+   </header>
+ 
+    <div class="hero">
+        <h2>Starte deine Karriere bei uns und werde ein Teil einer verrückten Community!</h2>
+        <p>Wir suchen immer motivierte Fahrer für unsere Flotte.</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h3>Unsere Flotte</h3>
+            <p>Egal ob Scania, Volvo oder DAF – bei uns fährst du deinen Traum-Lkw mit fairem Speditions-Abrechnungssystem.</p>
+        </div>
+        <div class="card">
+            <h3>Community & Events</h3>
+            <p>Regelmäßige Konvois, gemeinsame Fahrten und eine aktive Community auf unserem Discord-Server.</p>
+        </div>
+        <div class="card">
+            <h3>Dein Profil</h3>
+            <p>Du hast Spaß am Fahren, hältst dich an die TMP Regelen und nutzt ggf. Software wie TrucksBook oder SpedV? Dann komm zu uns!</p>
+        </div>
+    </div>
+
+</body>
+</html>
